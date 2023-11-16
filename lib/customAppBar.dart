@@ -109,6 +109,7 @@ class Feed extends StatelessWidget {
                 ],
               ),
             ),
+            const SizedBox(width: 10),
             const VerticalDivider(),
             Padding(
               padding: const EdgeInsets.only(left: 50),
