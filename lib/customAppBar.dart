@@ -2,8 +2,8 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:linkedin_clone/body.dart';
 
-class Feed extends StatelessWidget {
-  const Feed({super.key});
+class topNav extends StatelessWidget {
+  const topNav({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -12,8 +12,8 @@ class Feed extends StatelessWidget {
       backgroundColor: Colors.grey[200],
       body: SingleChildScrollView(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const SizedBox(height: 25),
             YourBodyWidget(),
             const SizedBox(height: 30),
           ],
