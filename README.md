@@ -1,16 +1,13 @@
 # linkedin_clone
 
-A new Flutter project.
+This is just a UI project where i cloned the home page of linkedin. 
 
-## Getting Started
+Run it on web using: flutter run -d chrome
 
-This project is a starting point for a Flutter application.
+## UI pictures
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div style="display: flex; justify-content: space-between;">
+    <img src="screenshots/user-page.png" alt="Login" style="width: 100%;">
+    <img src="screenshots/admin-login-page.png" alt="Chats" style="width: 100%;">
+    <img src="screenshots/admin-panel.png" alt="Contacts" style="width: 100%;">
+</div>
